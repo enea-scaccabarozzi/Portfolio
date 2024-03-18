@@ -1,5 +1,5 @@
 //@ts-check
-const {composePlugins, withNx} = require('@nx/next')
+const { composePlugins, withNx } = require('@nx/next')
 const bundleAnalyzer = require('@next/bundle-analyzer')
 
 const withBundleAnalyzer = bundleAnalyzer({
@@ -15,6 +15,6 @@ const nextConfig = {
 	},
 }
 
-const plugins = [withBundleAnalyzer, withNx]
+const plugins = [withNx, withBundleAnalyzer]
 
 module.exports = composePlugins(...plugins)(nextConfig)

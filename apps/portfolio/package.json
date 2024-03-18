@@ -4,10 +4,5 @@
 	"private": true,
 	"dependencies": {
 		"next": "*"
-	},
-	"scripts": {
-		"build": "sst bind next build",
-		"build:stats": "WEB_BUNDLE_ANALYZE=true sst bind next build",
-		"serve": "sst bind next dev"
 	}
 }

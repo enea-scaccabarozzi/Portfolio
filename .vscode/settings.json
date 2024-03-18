@@ -10,5 +10,5 @@
 	"tailwindCSS.experimental.configFile": {
 		"apps/portfolio/tailwind.config.js": ["apps/portfolio/**", "libs/**/ui/**"]
 	},
-	"conventionalCommits.scopes": ["portfolio"]
+	"conventionalCommits.scopes": ["portfolio", "global"]
 }

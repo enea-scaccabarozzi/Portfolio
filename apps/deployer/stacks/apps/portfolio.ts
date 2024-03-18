@@ -9,7 +9,7 @@ export const Portfolio = ({ stack }: StackContext) => {
 
 	switch (process.env.SST_STAGE) {
 		case 'prod':
-			domainName = `me.${BASE_DOMAIN}`
+			domainName = `${BASE_DOMAIN}`
 			break
 		case 'demo':
 			domainName = `demo.${BASE_DOMAIN}`

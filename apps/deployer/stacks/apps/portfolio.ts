@@ -1,5 +1,4 @@
 import { NextjsSite, StackContext, use } from 'sst/constructs'
-import { Config } from 'sst/node/config'
 
 import { Configs } from '../config'
 

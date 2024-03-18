@@ -9,5 +9,6 @@
 	"tailwindCSS.emmetCompletions": true,
 	"tailwindCSS.experimental.configFile": {
 		"apps/portfolio/tailwind.config.js": ["apps/portfolio/**", "libs/**/ui/**"]
-	}
+	},
+	"conventionalCommits.scopes": ["portfolio"]
 }

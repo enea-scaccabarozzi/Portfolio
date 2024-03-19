@@ -1,2 +1,5 @@
 // Use this file to export React server components
-export * from './lib/hello-server'
+
+export { AboutPage } from './lib/about/page'
+export { ContactsPage } from './lib/contacts/page'
+export { LandingPage } from './lib/landing/page'

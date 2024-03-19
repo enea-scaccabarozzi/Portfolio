@@ -56,7 +56,7 @@ export const LandingPageComponent = () => {
 					</Link>
 					<Link className='flex items-center justify-center' href='contacts'>
 						<span className='text-sm text-slate-300 text-opacity-25 transition hover:text-opacity-100 hover:underline sm:-mr-8 sm:text-lg'>
-							Contacts
+							Contact
 						</span>
 					</Link>
 				</motion.div>

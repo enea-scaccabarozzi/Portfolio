@@ -1,4 +1,13 @@
+import { Inter as FontSans } from 'next/font/google'
+
+import { cn } from '@portfolio/utils'
+
 import './global.css'
+
+const fontSans = FontSans({
+	subsets: ['latin'],
+	variable: '--font-sans',
+})
 
 export const metadata = {
 	title: 'Enea Scaccabarozzi',
@@ -12,7 +21,14 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en'>
-			<body>{children}</body>
+			<body
+				className={cn(
+					'bg-background min-h-screen font-sans antialiased',
+					fontSans.variable
+				)}
+			>
+				{children}
+			</body>
 		</html>
 	)
 }

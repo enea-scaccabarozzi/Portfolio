@@ -22,6 +22,7 @@
 			"@portfolio/portfolio-types": ["libs/portfolio/types/src/index.ts"],
 			"@portfolio/portfolio-ui": ["libs/portfolio/ui/src/index.ts"],
 			"@portfolio/portfolio-ui/server": ["libs/portfolio/ui/src/server.ts"],
+			"@portfolio/portfolio-utils": ["libs/portfolio/utils/src/index.ts"],
 			"@portfolio/shared-ui": ["libs/shared/ui/src/index.ts"],
 			"@portfolio/shared-ui/server": ["libs/shared/ui/src/server.ts"],
 			"@portfolio/utils": ["libs/shared/utils/src/index.ts"]

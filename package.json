@@ -10,6 +10,7 @@
 	},
 	"private": true,
 	"dependencies": {
+		"@heroicons/react": "^2.1.1",
 		"clsx": "^2.1.0",
 		"framer-motion": "^11.0.14",
 		"next": "14.0.4",

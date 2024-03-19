@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+nx run-many -t lint
 nx run-many -t test
 nx run-many -t build

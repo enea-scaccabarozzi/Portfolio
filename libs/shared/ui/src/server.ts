@@ -1,2 +1,3 @@
 // Use this file to export React server components
-export * from './lib/hello-server'
+
+export { RainbowAccentButton } from './lib/buttons/rainbow-accent'

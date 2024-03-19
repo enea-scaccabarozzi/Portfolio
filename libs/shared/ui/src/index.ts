@@ -2,3 +2,4 @@
 
 export { LampContainer } from './lib/lamp-container'
 export { Particles } from './lib/particles'
+export { BackgroundBeams } from './lib/backgorund-beams'

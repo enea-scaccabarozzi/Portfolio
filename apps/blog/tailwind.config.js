@@ -1,5 +1,7 @@
 // @ts-check
+const { createGlobPatternsForDependencies } = require('@nx/react/tailwind')
 const { fontFamily } = require('tailwindcss/defaultTheme')
+const { join } = require('path')
 const colors = require('tailwindcss/colors')
 
 /** @type {import("tailwindcss/types").Config } */
@@ -11,6 +13,8 @@ module.exports = {
     './components/**/*.{js,ts,tsx}',
     './layouts/**/*.{js,ts,tsx}',
     './data/**/*.mdx',
+    join(__dirname, '{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}'),
+    ...createGlobPatternsForDependencies(__dirname),
   ],
   darkMode: 'class',
   theme: {

@@ -5,7 +5,7 @@ import { RainbowAccentButton } from '@portfolio/shared-ui/server'
 
 export const AboutPageComponent = () => {
 	return (
-		<div className='bg-neutral-950 relative flex h-[40rem] w-full flex-col items-center justify-center rounded-md antialiased'>
+		<div className=' relative flex h-[45rem] w-full flex-col items-center justify-center rounded-md antialiased'>
 			<div className='mx-auto max-w-2xl p-4'>
 				<h1 className='relative z-10 bg-gradient-to-b from-slate-200  to-slate-600 bg-clip-text p-3 text-center font-sans  text-lg font-bold text-transparent md:text-5xl'>
 					Hi, How It's Going?

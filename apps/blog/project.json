@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/blog",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "run `nx show project blog --web` to see all the targets for this project",
+  "targets": {
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "sst bind next dev",
+        "cwd": "apps/blog"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "open-next build --build-command \"next build\"  && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
+        "cwd": "apps/blog"
+      }
+    },
+    "build:analyze": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "open-next build --build-command \"cross-env WEB_BUNDLE_ANALYZE=true next build\" ",
+        "cwd": "apps/blog"
+      }
+    }
+  }
+}

@@ -47,3 +47,7 @@ out
 # Sst
 .sst
 .open-next
+
+# Contentlayer
+.contentlayer
+apps/blog/public/search.json

@@ -8,7 +8,16 @@
 	},
 	"tailwindCSS.emmetCompletions": true,
 	"tailwindCSS.experimental.configFile": {
-		"apps/portfolio/tailwind.config.js": ["apps/portfolio/**", "libs/**/ui/**"]
+		"apps/portfolio/tailwind.config.js": [
+			"apps/portfolio/**",
+			"libs/portfolio/**/ui/**",
+			"libs/shared/**/ui/**"
+		],
+		"apps/blog/tailwind.config.js": [
+			"apps/blog/**",
+			"libs/blog/**/ui/**",
+			"libs/shared/**/ui/**"
+		]
 	},
 	"conventionalCommits.scopes": ["portfolio", "global", "blog"]
 }

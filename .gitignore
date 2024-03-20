@@ -50,4 +50,7 @@ out
 
 # Contentlayer
 .contentlayer
+
+
 apps/blog/public/search.json
+apps/**/*.xml

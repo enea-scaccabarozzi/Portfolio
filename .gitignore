@@ -51,6 +51,15 @@ out
 # Contentlayer
 .contentlayer
 
-
+# Generated
 apps/blog/public/search.json
 apps/**/*.xml
+
+# Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
+
+# Envirnoment Variables
+.env

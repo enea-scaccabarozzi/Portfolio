@@ -5,7 +5,7 @@
     "next/core-web-vitals",
     "../../.eslintrc.json"
   ],
-  "ignorePatterns": ["!**/*", ".next/**/*", ".open-next/**/*"],
+  "ignorePatterns": ["!**/*", ".next/**/*", ".open-next/**/*", ".contentlayer/**/*"],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],

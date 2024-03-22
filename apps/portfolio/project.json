@@ -16,14 +16,14 @@
 		"build": {
 			"executor": "nx:run-commands",
 			"options": {
-				"command": "open-next build --build-command \"next build\"",
+				"command": "open-next build --build-command \"sst bind next build\"",
 				"cwd": "apps/portfolio"
 			}
 		},
 		"build:analyze": {
 			"executor": "nx:run-commands",
 			"options": {
-				"command": "open-next build --build-command \"WEB_BUNDLE_ANALYZE=true next build\"",
+				"command": "open-next build --build-command \"WEB_BUNDLE_ANALYZE=true sst bind next build\"",
 				"cwd": "apps/portfolio"
 			}
 		}

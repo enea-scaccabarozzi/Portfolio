@@ -1,9 +1,9 @@
 export interface IParameter {
 	name: string
 	value: {
-		dev: string | number | boolean
-		demo: string | number | boolean
-		prod: string | number | boolean
+		dev: string
+		demo: string
+		prod: string
 	}
 }
 

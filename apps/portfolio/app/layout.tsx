@@ -1,9 +1,10 @@
 import { Inter as FontSans } from 'next/font/google'
+import { Config } from 'sst/node/config'
 
 import { cn } from '@portfolio/utils'
+import { NavbarComponent } from '@portfolio/portfolio-ui'
 
 import './global.css'
-import { NavbarComponent } from '../../../libs/portfolio/ui/src/lib/layout/navbar/index'
 
 const fontSans = FontSans({
 	subsets: ['latin'],
@@ -28,6 +29,12 @@ export default function RootLayout({
 					fontSans.variable
 				)}
 			>
+				<script
+					defer
+					src='https://analytics.eu.umami.is/script.js'
+					data-website-id={Config.UMAMI_SITE_ID}
+				></script>
+
 				<NavbarComponent />
 				{children}
 			</body>

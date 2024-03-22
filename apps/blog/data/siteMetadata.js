@@ -3,7 +3,8 @@ const siteMetadata = {
   title: "Enea's Blog",
   author: 'Enea Scaccabarozzi',
   headerTitle: "Enea's Blog",
-  description: 'A personal blog by Enea Scaccabarozzi. I write about software development, security, and more.',
+  description:
+    'A personal blog by Enea Scaccabarozzi. I write about software development, security, and more.',
   language: 'en-us',
   theme: 'light', // system, dark or light
   siteUrl: 'https://blog.eneascaccabarozzi.xyz',
@@ -15,8 +16,9 @@ const siteMetadata = {
   linkedin: 'https://www.linkedin.com/in/enea-scaccabarozzi-9660ba266',
   locale: 'en-US',
   analytics: {
-    plausibleAnalytics: {
-      plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    umamiAnalytics: {
+      umamiWebsiteId: process.env.NEXT_UMAMI_ID, // e.g. 123e4567-e89b-12d3-a456-426614174000
+      // Remember to add 'us.umami.is' in `next.config.js` as a permitted domain for the CSP
     },
   },
   newsletter: {

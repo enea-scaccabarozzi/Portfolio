@@ -1,8 +1,9 @@
 {
-	"recommendations": [
-		"nrwl.angular-console",
-		"esbenp.prettier-vscode",
-		"firsttris.vscode-jest-runner",
-		"vivaxy.vscode-conventional-commits"
-	]
+  "recommendations": [
+    // Tailwind CSS Intellisense
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "aaron-bond.better-comments"
+  ]
 }

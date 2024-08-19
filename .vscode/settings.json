@@ -1,23 +1,17 @@
 {
-	"editor.quickSuggestions": {
-		"strings": "on"
-	},
-	"files.associations": {
-		"*.css": "tailwindcss",
-		"*.scss": "tailwindcss"
-	},
-	"tailwindCSS.emmetCompletions": true,
-	"tailwindCSS.experimental.configFile": {
-		"apps/portfolio/tailwind.config.js": [
-			"apps/portfolio/**",
-			"libs/portfolio/**/ui/**",
-			"libs/shared/**/ui/**"
-		],
-		"apps/blog/tailwind.config.js": [
-			"apps/blog/**",
-			"libs/blog/**/ui/**",
-			"libs/shared/**/ui/**"
-		]
-	},
-	"conventionalCommits.scopes": ["portfolio", "global", "blog"]
+  "css.validate": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  // Tailwind CSS Autocomplete, add more if used in projects
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "classNames",
+    "containerClassName"
+  ],
+  "typescript.preferences.importModuleSpecifier": "non-relative"
 }

@@ -3,3 +3,5 @@ describe('Dummy suite', () => {
     expect(true).toBe(true);
   });
 });
+
+export {};
